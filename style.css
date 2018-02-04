@@ -1,0 +1,56 @@
+html {
+  background: url(images/drums.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  height: 100%;
+  font-size: 62.5%;
+
+}
+body {
+  height: inherit;
+}
+
+#container {
+  height: inherit;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+}
+
+#drumkit {
+  justify-self: center;
+  align-self: center;
+
+}
+.letter {
+  border-radius: 3px;
+background-color:rgba(208,20,20,0.5);
+font-size: 1.5em;
+display: inline-block;
+color: white;
+padding: 20px;
+text-align: center;
+
+margin: 50px 10px;
+height: 70px;
+width: 70px;
+box-shadow: 0px 1px 10px 1px white;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  align-self: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.clicked {
+  box-shadow: 0px 1px 10px 3px orange;
+  transform: scale(0.8);
+  background-color:rgba(208,20,20,1);
+}
